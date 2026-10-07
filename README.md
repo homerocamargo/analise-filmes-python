@@ -93,7 +93,7 @@ Também permite observar detalhes do comportamento do Pandas, como a diferença 
 
 O código da aula foi adaptado para permitir a execução das células em sequência. Os ajustes incluem a leitura do CSV por caminho relativo, o cálculo de correlações apenas entre colunas numéricas e a separação das conversões de categorias em uma cópia da tabela.
 
-As 30 células foram testadas em sequência com os 7.668 registros da base, sem erros de execução.
+As 30 células do notebook foram executadas em sequência utilizando os 7.668 registros da base, sem erros de execução.
 
 Para executar o notebook, é necessário baixar o arquivo movies.csv e colocá-lo na pasta data/.
 
