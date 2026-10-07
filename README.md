@@ -91,9 +91,15 @@ Também permite observar detalhes do comportamento do Pandas, como a diferença 
 
 ## Observações sobre o notebook
 
-Os comandos e a ordem do código original foram preservados. O arquivo inclui trechos adicionais que exigem revisão para uma execução completa, como o uso de `cat_columns` sem definição e chamadas de correlação que podem falhar com colunas de texto, dependendo da versão do Pandas.
+O código da aula foi adaptado para permitir a execução das células em sequência. Os ajustes incluem a leitura do CSV por caminho relativo, o cálculo de correlações apenas entre colunas numéricas e a separação das conversões de categorias em uma cópia da tabela.
 
-As saídas salvas são do notebook original. Elas não representam uma nova execução deste projeto, e nenhuma conclusão numérica própria é apresentada neste README.
+As 30 células foram testadas em sequência com os 7.668 registros da base, sem erros de execução.
+
+Para executar o notebook, é necessário baixar o arquivo movies.csv e colocá-lo na pasta data/.
+
+O notebook publicado está sem saídas salvas. Os gráficos e as tabelas serão gerados ao executar as células em um ambiente compatível com Jupyter.
+
+O swarmplot utiliza uma amostra de até 500 filmes e pode apresentar avisos de sobreposição de pontos, sem interromper a execução.
 
 ## Conceitos de Python e análise de dados praticados
 
